@@ -3,7 +3,6 @@
     "name": "mundo-geek-59525",
     "slug": "mundo-geek-59525",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -18,10 +17,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kubrawild.mundogeek59525"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "995a7d39-dae9-40f9-9440-7d0ad8ff23bb"
+      }
+    },
+    "owner": "kubrawild"
   }
 }
