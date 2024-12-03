@@ -1,36 +1,30 @@
 {
   "expo": {
-    "name": "mundo-geek-59525",
-    "slug": "mundo-geek-59525",
+    "name": "T-Shirt Football Champions",
+    "slug": "my-app",
     "version": "1.0.0",
-    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "icon": "./assets/jersey.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/jersey.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F4F27E"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/jersey.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.kubrawild.mundogeek59525"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-font"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "995a7d39-dae9-40f9-9440-7d0ad8ff23bb"
-      }
-    },
-    "owner": "kubrawild"
+    }
   }
 }
